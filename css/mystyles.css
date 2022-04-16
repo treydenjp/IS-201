@@ -1,7 +1,161 @@
+/* Treyden Peterson*/
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+    background-color: rgb(230, 230, 230);
+}
+
+header {
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 500px;
+    background-repeat: no-repeat; 
+    background-size:cover
+}    
+
+.rightmenu {
+    right: 0px;
+    top: 510px;
+    bottom: 110px;
+    width: 200px;
+}
+
+.leftmenu {
+    left: 5px;
+    top: 5100px;
+    bottom: 110px;
+    width: 200px;
+}
+
+.footer {
+    bottom: 0px;
+    left: 5px;
+    right: 5px;
+    height: 200px;
+    padding-top: 100px;
+}
+
+.section {
+    top: 510px;
+    bottom:  110px;
+    left: 210px;
+    right: 210px;
+    text-align: center;
+}
+
+.common {
+    position: absolute;
+}
+
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(170, 170, 170);
+    font-size:12pt; 
+    text-decoration: none;   
+}
+
+a:hover {
+    color:blue;
+}
+
+a:visited {
+    text-decoration: none
+}
+
+.headingtext {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:75px;
+    color: rgb(230, 230, 230);
+}
+
+.heading1 {
+    position: absolute;
+    top: 150px;
+    left: 20%;
+    right: 20%;
+    height: 150px;
+    text-align: center;
+    padding: 30px;
+}
 
 .bold {font-weight: bold;}
 
+.italic {
+    font-style: italic;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(170, 170, 170);
+}
+
+
 .jobheading{ 
     font-style: italic;
-    color: rgb(34, 122, 255)
+    color: rgb(34, 122, 255);
+}
+
+.contact {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 11, 76);
+    font-size: small;
+}
+
+.images {
+    width: 300px;
+}
+
+.header-text {
+    color: rgb(230, 230, 230);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+}
+
+.headerbox {
+    top: 30px;
+    left: 20%;
+    /*border: white solid 1px;*/
+    width: 300px;
+    height: 30px;
+    position: absolute;
+}
+
+.nav {
+    top: 30px;
+    right: 10%;
+    /*border: white solid 1px;*/
+    width: 500px;
+    height: 30px;
+    position: absolute;
+}
+
+.nav-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(200, 200, 200);
+    font-size:10pt; 
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.nav-text:hover {
+    color: rgb(170, 170, 170);
+    text-decoration: none;
+}
+
+.nav-text:visited {
+    text-decoration: none
+}
+
+.tableauchart{
+    padding-top: 150px;
+    border-color: black solid 1px;
+    justify-content: center;
+}
+
+.headingtableau {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15pt;
+    padding-top: 5px;
+    font-style: italic;
+    color: rgb(170, 170, 170);
+    font-size: small;
 }
